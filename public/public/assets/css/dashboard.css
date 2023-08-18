@@ -1,0 +1,30 @@
+/*Custom css for dashboard*/
+
+.aiz-main-wrapper .aiz-content-wrapper .aiz-pagination nav span svg{
+    height:40px;
+}
+
+.dropdown-fontsize.note-dropdown-menu a.dropdown-item i{
+    color:#666;
+    visibility:visible;
+    display:flex;
+}
+
+.dropdown-fontsize.note-dropdown-menu i:before{
+    display:none;
+}
+
+.dropdown-fontsize.note-dropdown-menu a.dropdown-item i:before{
+    display:block;
+}
+
+.dropdown-fontsize.note-dropdown-menu a.dropdown-item{
+    padding:8px 10px;
+}
+
+.dropdown-fontsize.note-dropdown-menu a.dropdown-item.checked{
+    background:#ddd;
+}
+.dropdown-fontsize.note-dropdown-menu a.dropdown-item:hover{
+    background:#ddd;
+}
